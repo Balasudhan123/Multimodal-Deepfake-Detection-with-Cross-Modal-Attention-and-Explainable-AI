@@ -1,6 +1,6 @@
 # Multimodal Deepfake Detection with Cross-Modal Attention and Explainable AI
 
-> **Published at the 6th International Conference on Recent Trends in Engineering, Technology and Management (ICRETEM 2026)**
+> **Presented at the 6th International Conference on Recent Trends in Engineering, Technology and Management (ICRETEM 2026)**
 > Suguna College of Engineering, Coimbatore, India — April 10–11, 2026
 
 ---
