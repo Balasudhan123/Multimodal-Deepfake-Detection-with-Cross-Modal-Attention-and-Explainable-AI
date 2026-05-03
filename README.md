@@ -15,8 +15,8 @@ This repository contains the full implementation of a multimodal deepfake detect
 
 ## 👥 Authors
 
-| Name | Institution | Email |
-|------|-------------|-------|
+| Name | Institution | Email | Github |
+|------|-------------|-------|--------|
 | Balasudhan C M | SRM IST, Ramapuram | bc0099@srmist.edu.in |
 | Thilak Raaj N V | SRM IST, Ramapuram | nt9939@srmist.edu.in | https://github.com/TRJgit |
 | Samuel Raj Irwin V | SRM IST, Ramapuram | si3076@srmist.edu.in | https://github.com/Samuel004 |
