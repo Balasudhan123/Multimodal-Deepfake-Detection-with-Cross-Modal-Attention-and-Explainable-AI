@@ -38,7 +38,7 @@ The framework additionally provides **human-readable forensic reports** via thre
 ├── FakeAVCeleb_Preprocess.ipynb     # Preprocessing for FakeAVCeleb dataset
 ├── Joint_Training.ipynb             # Joint multi-dataset model training
 ├── Inference.ipynb                  # Inference, XAI visualisation & forensic report generation
-├── Deepfake_WebUI_2_1_.ipynb        # Flask + ngrok web application for live inference
+├── Deepfake_WebUI.ipynb        # Flask + ngrok web application for live inference
 ├── PROJECT_REPORT.docx              # Full project report
 ├── Multimodal_Deepfake_Detection_with_Cross-Modal_Attention_and_Explainable_AI.pdf
 └── README.md
@@ -222,7 +222,7 @@ All three evidence streams — Grad-CAM peaks, temporal attention hot frames, au
 
 ## 🌐 Web UI
 
-`Deepfake_WebUI_2_1_.ipynb` launches a full-stack web application directly from Google Colab using **Flask** as the backend and **ngrok** as the public tunnel. No server infrastructure or deployment is required — run the notebook in Colab and share the generated public URL with anyone.
+`Deepfake_WebUI.ipynb` launches a full-stack web application directly from Google Colab using **Flask** as the backend and **ngrok** as the public tunnel. No server infrastructure or deployment is required — run the notebook in Colab and share the generated public URL with anyone.
 
 ### Architecture
 
@@ -286,7 +286,7 @@ The single-page HTML application served by Flask includes:
 
 ### How to Launch
 
-1. Open `Deepfake_WebUI_2_1_.ipynb` in Google Colab.
+1. Open `Deepfake_WebUI.ipynb` in Google Colab.
 2. Set the runtime to **GPU (T4 recommended)**.
 3. Mount your Google Drive (Cell 2) — the trained checkpoint must be at `MyDrive/Deepfake/joint_model_checkpoint.pth`.
 4. Set your ngrok auth token in Cell 3 (get one free at [dashboard.ngrok.com](https://dashboard.ngrok.com/get-started/your-authtoken)).
@@ -345,7 +345,7 @@ Runs the trained model on test-split samples, generates Grad-CAM overlays, tempo
 ### Step 4 — Launch the Web UI
 
 ```
-Deepfake_WebUI_2_1_.ipynb
+Deepfake_WebUI.ipynb
 ```
 
 See the [Web UI section](#-web-ui-new) above for full instructions.
