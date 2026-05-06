@@ -38,7 +38,7 @@ The framework additionally provides **human-readable forensic reports** via thre
 ├── FakeAVCeleb_Preprocess.ipynb     # Preprocessing for FakeAVCeleb dataset
 ├── Joint_Training.ipynb             # Joint multi-dataset model training
 ├── Inference.ipynb                  # Inference, XAI visualisation & forensic report generation
-├── Deepfake_WebUI_2_1_.ipynb        # 🆕 Flask + ngrok web application for live inference
+├── Deepfake_WebUI_2_1_.ipynb        # Flask + ngrok web application for live inference
 ├── PROJECT_REPORT.docx              # Full project report
 ├── Multimodal_Deepfake_Detection_with_Cross-Modal_Attention_and_Explainable_AI.pdf
 └── README.md
@@ -220,7 +220,7 @@ All three evidence streams — Grad-CAM peaks, temporal attention hot frames, au
 
 ---
 
-## 🌐 Web UI (NEW)
+## 🌐 Web UI
 
 `Deepfake_WebUI_2_1_.ipynb` launches a full-stack web application directly from Google Colab using **Flask** as the backend and **ngrok** as the public tunnel. No server infrastructure or deployment is required — run the notebook in Colab and share the generated public URL with anyone.
 
